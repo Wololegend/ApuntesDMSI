@@ -31,3 +31,17 @@ Todo esto se define en un fichero llamado Schema.
 Una api no es más que documentación de cómo se interactúa con el lenguaje para realizar consultas o modificaciones de un servicio web.
 
 API de GraphQL: Manera de escribir consultas en lenguaje GraphQL para interactuar con un servicio web que lo soporte.
+
+
+## SPA
+Siglas de Single Page Application. Hoy en día, sólo se hace un request de la página (HTML) y si luego se debe actualizar, se le envía al cliente un fichero JSON o XML.
+
+## Web Reactiva
+En lugar de esperar a que el usuario realice acciones para mandar o recibir información  al servidor, se establece un vía de comunicación bidireccional que, según el cliente va realizando acciones se van enviando datos al servidor y viceversa.
+
+## Interpretación  de código
+
+* Análisis léxico: Eliminado de blancos y comentarios.
+* Análisis sintáctico: Árbol de análisis sintáctico.
+
+En Front End a este árbol se le llama DOM (Domain Object Model). Cada uno de los nodos del árbol es un objeto JS, por lo que cada uno tiene atributos y métodos. El estándar DOM los define.
