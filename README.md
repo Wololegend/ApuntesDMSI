@@ -45,3 +45,21 @@ En lugar de esperar a que el usuario realice acciones para mandar o recibir info
 * Análisis sintáctico: Árbol de análisis sintáctico.
 
 En Front End a este árbol se le llama DOM (Domain Object Model). Cada uno de los nodos del árbol es un objeto JS, por lo que cada uno tiene atributos y métodos. El estándar DOM los define.
+
+## Práctica Final
+
+**Dependencias**:
+* morgan: Muestra todos los movimientos en el servidor.
+* sqlite3: Base de datos ligera que no requiere servidor.
+* sequelize: Módulo que nos abstrae de la base de datos para poder migrar de bases de datos son sistemas gestores diferentes.
+* express: Permite crear el servidor.
+* cors: Evita compartir recursos entre páginas con diferentes dominios en las que el usuario esté navegando.
+
+**Scripts**:
+Primero ejecutar _node index.js_ e instalar _sqlite3_ e interfaz gráfica para sqlite.
+
+* _npm start_ arranca el servidor.
+    El servidor se inicia en localhost:4000.
+
+**Ficheros**:
+* model.js contiene los datos del servidor, donde se declara la base de datos.
